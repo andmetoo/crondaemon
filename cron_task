@@ -1,0 +1,1 @@
+* * * * * if [ $(ps aux | grep 'crondd' | grep -v grep | wc -l | tr -s "\n") -lt 1 ]; then ~/crondd >>~/default_cron.log; fi
